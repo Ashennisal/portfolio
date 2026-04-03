@@ -25,14 +25,41 @@ git push -u origin main
 
 **If the repository name is `yourusername.github.io`**, the site URL is `https://yourusername.github.io/` (no extra path).
 
-## Step 2 — Résumé PDF
+## Step 2 — Résumé PDF + project screenshots (finish when ready)
 
-1. Export your CV as a PDF.
-2. Save it in this folder as **`cv.pdf`** (same folder as `index.html`).
-3. `content.js` should keep `cvUrl: "cv.pdf"` so the hero and contact links work on GitHub Pages.
+### A. Résumé (PDF)
 
-If you prefer hosting the PDF elsewhere (Google Drive, etc.), change `cvUrl` in `content.js` to that full `https://` link.
+1. Write or export your CV as a **PDF** (Word *Save as PDF*, Google Docs *Download → PDF*, etc.).
+2. Save the file here: **`cv.pdf`** (same folder as `index.html`, e.g. `C:\Users\nisal\portfolio\cv.pdf`).
+3. In **`content.js`**, set **`cvUrl: "cv.pdf"`** (right now it may be `""` so the site doesn’t show a broken link).
+4. In PowerShell, from this folder:
 
-## Project screenshots
+```powershell
+git add cv.pdf content.js
+git commit -m "Add CV and enable resume link"
+git push
+```
 
-`images/*.svg` files are **placeholders**. Replace them with real screenshots (PNG or JPG), update the `image` paths in `projects.js`, and commit again.
+5. Wait ~1 minute, then open your GitHub Pages URL and test **Résumé** / **Download PDF**.
+
+**Optional:** Host the PDF elsewhere (Google Drive direct link, etc.) and set **`cvUrl`** to that full `https://...` address instead.
+
+### B. Project screenshots (replace SVG placeholders)
+
+1. Open each app (or use an old screenshot), capture the main screen:
+   - **Windows:** `Win + Shift + S`, or *Snipping Tool*, paste/save as PNG.
+2. Save into the **`images/`** folder, for example:
+   - `images/wedding.png`
+   - `images/real-estate.png`
+   - `images/legal.png` (when you have something to show)
+3. Open **`projects.js`** and change each project’s **`image`** line to match, e.g. `image: "images/wedding.png",`
+4. You can delete the old `*-preview.svg` files after you’re happy, or keep them unused.
+5. Commit and push:
+
+```powershell
+git add images projects.js
+git commit -m "Add real project screenshots"
+git push
+```
+
+Until you do **A**, `cvUrl` stays `""` and no résumé buttons appear. Until you do **B**, the SVG previews still work as placeholders.
