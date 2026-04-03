@@ -1,7 +1,7 @@
 /** Site copy and structured sections — edit values below, no build step required. */
 window.PORTFOLIO_SITE = {
   /** After you add cv.pdf next to index.html and push, set to "cv.pdf". Until then leave "". */
-  cvUrl: "",
+  cvUrl: "cv.pdf",
 
   name: "Ashen Nisal",
   tagline: "I build full-stack web apps with Java, Spring, and solid user flows.",
