@@ -17,6 +17,3 @@ Personal developer portfolio: projects, skills, experience, and contact. Static 
 2. Open `index.html` in a browser, or use a simple local server if you prefer.
 3. Change copy in **`content.js`** and projects in **`projects.js`**, then refresh.
 
-**CV:** add or replace **`cv.pdf`** in the repo root and keep `cvUrl: "cv.pdf"` in `content.js` (or point `cvUrl` at any public `https://` PDF URL).
-
-**Project thumbnails:** image paths live in **`projects.js`**; files go under **`images/`**.
