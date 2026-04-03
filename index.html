@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ashen Nisal — IT undergraduate (AI specialization) at SLIIT. Full-stack portfolio: Java, Spring Boot, MySQL, and web projects."
+    />
+    <meta property="og:title" content="Ashen Nisal — Portfolio" />
+    <meta
+      property="og:description"
+      content="Undergraduate in Information Technology (AI) at SLIIT. Full-stack projects with Spring Boot, Java, MySQL, and modern web front ends."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#0c0e12" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <title>Portfolio — Ashen Nisal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#">Ashen Nisal</a>
+        <nav class="nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="container">
+          <p class="hero-eyebrow" id="hero-eyebrow"></p>
+          <h1 class="hero-title" id="hero-heading">
+            I’m <span class="hero-name" id="hero-name"></span>.<br />
+            <span id="hero-line2"></span>
+          </h1>
+          <p class="hero-lead" id="hero-lead"></p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View projects</a>
+            <a class="btn btn-ghost" href="#contact">Get in touch</a>
+            <span id="hero-cv-slot" class="hero-cv-slot"></span>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about" aria-labelledby="about-heading">
+        <div class="container narrow">
+          <h2 class="section-title" id="about-heading">About</h2>
+          <div id="about-body" class="about-body"></div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills" aria-labelledby="skills-heading">
+        <div class="container">
+          <h2 class="section-title" id="skills-heading">Skills</h2>
+          <p class="section-intro">Stack and practices I use most on recent projects.</p>
+          <div id="skills-grid" class="skills-grid" aria-label="Skill categories"></div>
+        </div>
+      </section>
+
+      <section id="experience" class="section experience" aria-labelledby="experience-heading">
+        <div class="container">
+          <h2 class="section-title" id="experience-heading">Experience</h2>
+          <p class="section-intro">Education and selected project outcomes.</p>
+          <div id="experience-list" class="experience-list"></div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects" aria-labelledby="projects-heading">
+        <div class="container">
+          <h2 class="section-title" id="projects-heading">Projects</h2>
+          <p class="section-intro">
+            <strong>Live</strong> appears when you set a <em>public</em> demo URL in <code>projects.js</code> (not localhost). Use <strong>Code</strong> for the GitHub repo.
+          </p>
+          <div id="project-grid" class="project-grid" aria-live="polite"></div>
+          <p id="projects-error" class="projects-error hidden" role="alert"></p>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact" aria-labelledby="contact-heading">
+        <div class="container narrow">
+          <h2 class="section-title" id="contact-heading">Contact</h2>
+          <div id="contact-body" class="contact-body"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> <span id="footer-name"></span></span>
+        <span class="footer-hint">Static site — host on GitHub Pages or Netlify</span>
+      </div>
+    </footer>
+
+    <script src="content.js"></script>
+    <script src="projects.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
