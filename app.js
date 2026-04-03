@@ -157,7 +157,7 @@
       cvSlot.innerHTML = cvUrl ?
         '<a class="btn btn-ghost" href="' +
         esc(cvUrl) +
-        '" target="_blank" rel="noopener noreferrer">Résumé (PDF)</a>'
+        '" target="_blank" rel="noopener noreferrer">CV (PDF)</a>'
       : "";
     }
 
@@ -248,7 +248,7 @@
       var siteCv = typeof site.cvUrl !== "undefined" && site.cvUrl && String(site.cvUrl).trim();
       var cvLine =
         siteCv ?
-          "<p>Résumé: <a href=\"" +
+          "<p>CV: <a href=\"" +
           esc(String(site.cvUrl).trim()) +
           "\" target=\"_blank\" rel=\"noopener noreferrer\">Download PDF</a></p>"
         : "";

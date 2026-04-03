@@ -1,6 +1,6 @@
 /** Site copy and structured sections — edit values below, no build step required. */
 window.PORTFOLIO_SITE = {
-  /** After you add cv.pdf next to index.html and push, set to "cv.pdf". Until then leave "". */
+  /** Public PDF for your CV; same folder as index.html, e.g. "cv.pdf". Leave "" to hide CV links. */
   cvUrl: "cv.pdf",
 
   name: "Ashen Nisal",
