@@ -2,7 +2,7 @@
  * Projects shown on the site.
  * - liveUrl: your *public* demo (e.g. after deploying on Render/Railway/Fly.io). Not localhost.
  * - featured / sortOrder: featured items first; lower sortOrder comes first within each group.
- * - image: path or URL (e.g. "images/wedding.png"); SVG placeholders included until you add PNG screenshots.
+ * - image: path or URL to a screenshot (e.g. images/wedding-preview.png).
  */
 window.PORTFOLIO_PROJECTS = [
   {
@@ -12,7 +12,7 @@ window.PORTFOLIO_PROJECTS = [
     tags: ["Spring Boot", "Thymeleaf", "MySQL", "Java"],
     liveUrl: "",
     repoUrl: "https://github.com/Ashennisal/wedding_reservation",
-    image: "images/wedding-preview.svg",
+    image: "images/wedding-preview.png",
     imageAlt: "Wedding reservation system screenshot",
     featured: true,
     sortOrder: 1,
@@ -24,7 +24,7 @@ window.PORTFOLIO_PROJECTS = [
     tags: ["HTML", "CSS", "JavaScript", "Java"],
     liveUrl: "",
     repoUrl: "https://github.com/Ashennisal/Real-State-Agent-Finder-and-Appointment-System-main",
-    image: "images/real-estate-preview.svg",
+    image: "images/real-estate-preview.png",
     imageAlt: "Real estate agent finder screenshot",
     featured: false,
     sortOrder: 2,
@@ -36,7 +36,7 @@ window.PORTFOLIO_PROJECTS = [
     tags: ["Python", "AI", "APIs"],
     liveUrl: "",
     repoUrl: "",
-    image: "images/legal-preview.svg",
+    image: "images/legal-preview.png",
     imageAlt: "AI legal analyzer preview",
     featured: false,
     sortOrder: 3,
