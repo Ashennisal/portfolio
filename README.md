@@ -16,8 +16,3 @@ Personal developer portfolio: projects, skills, experience, and contact. Static 
 1. Clone or download this repo.
 2. Open `index.html` in a browser, or use a simple local server if you prefer.
 3. Change copy in **`content.js`** and projects in **`projects.js`**, then refresh.
-
-<<<<<<< HEAD
-
-=======
->>>>>>> fef827123fb199ebd304c3acd0d20c5c6dac3448
