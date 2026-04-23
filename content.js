@@ -4,15 +4,14 @@ window.PORTFOLIO_SITE = {
   cvUrl: "cv.pdf",
 
   name: "Ashen Nisal",
-  tagline: "I build full-stack web apps with Java, Spring, and solid user flows.",
+  tagline: "I build high-performance full-stack apps with Java and Spring Boot.",
   heroEyebrow: "Hello — I build things for the web",
-  heroLead:
-    "I’m a software developer focused on practical full-stack projects: secure backends, clear UI, and databases that match the domain. Explore my work below or get in touch.",
+  heroLead: "Currently specializing in AI at SLIIT. I bridge the gap between complex backend logic and intuitive user experiences.",
 
   about: {
     paragraphs: [
-      "I enjoy turning requirements into working systems—whether that’s search and booking flows, role-based admin areas, or tying a front end to a Spring Boot API and MySQL. I care about code structure so features are easier to extend later.",
-      "Outside of coursework and project work, I keep building small apps to sharpen Java, web fundamentals, and how users actually move through a screen. I’m open to internships, junior roles, and collaborations where I can keep shipping real software.",
+      "👋 **Currently specialized in AI at SLIIT.** I enjoy turning requirements into working systems—whether that’s search and booking flows, role-based admin areas, or tying a front end to a Spring Boot API and MySQL.",
+      "Outside of coursework, I'm passionate about exploring how **Generative AI** can be integrated into full-stack architecture. I’m open to internships and junior roles where I can keep shipping real software."
     ],
   },
 
