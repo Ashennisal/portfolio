@@ -35,7 +35,7 @@ window.PORTFOLIO_PROJECTS = [
       "Exploration of document-oriented workflows: ingestion, structured outputs, and review-oriented tooling. In progress — links will go live once the demo and repository are published.",
     tags: ["Python", "AI", "APIs"],
     liveUrl: "",
-    repoUrl: "",
+    repoUrl: "https://github.com/Ashennisal/AI_Legal_Analyzer_and_Risk_Predictor",
     image: "images/legal-preview.png",
     imageAlt: "AI legal analyzer preview",
     featured: false,
